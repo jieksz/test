@@ -6,6 +6,6 @@ public class Demo14 {
         System.out.println(5 >= 5);
         System.out.println(3 <= 4);
         System.out.println(10 == 11);
-        System.out.println(11 != 11);
+        // System.out.println(11 != 11);
     }
 }
