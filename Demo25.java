@@ -1,29 +1,3 @@
-class Person {
-    private int age;
-    private String name;
-
-    public void setage(int a) {
-        age = a;
-    }
-
-    public int getage() {
-        return age;
-    }
-
-    public void setname(String n) {
-        name = n;
-    }
-
-    public String getname() {
-        return name;
-    }
-
-    public Person() {
-        age = 18;
-        name = "张三";
-    }
-}
-
 public class Demo25 {
 
     static int GetSum(int n) {
@@ -38,8 +12,10 @@ public class Demo25 {
         int sum = GetSum(4);
         System.out.println("sum=" + sum);
 
-        Person p = new Person();
+        Person p = new Person(18, "张三");
         System.out.println(p.getage());
         System.out.println(p.getname());
+        p.speak();
+        p.say();
     }
 }
